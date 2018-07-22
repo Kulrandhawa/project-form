@@ -1,0 +1,310 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	line-height: 1;
+	/* Background pattern from transparenttextures.com */
+	background: #c8d2ec url('../img/back.png') center center no-repeat;
+	background-size: cover;
+  color: grey;
+}
+
+form {
+  max-width: 600px;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background: #f4f7f8;
+  border-radius: 8px;
+}
+
+h1 {
+  text-align: center;
+  background-color: #364775;
+  color: white;
+  margin-top: 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+	font-size: 1.7em;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	font-size: 1.5em;
+	color: #364775;
+	line-height: 1.5;
+}
+
+p {
+	font-size: 1.1em;
+	color: #565557;
+	text-align: center;
+	font-weight: lighter;
+	line-height: 1.5;
+}
+
+.wrapper {
+	padding: 20px;
+	background: rgba(255, 255, 255, .6);
+}
+
+.latest_news{
+  text-align: center;
+}
+
+fieldset {
+    border: 0;
+    margin: 0 auto;
+    padding: 0;
+}
+
+legend {
+	font-weight: bold;
+	color: #364775;
+	text-align: left;
+	font-size: 1.5em;
+	line-height: 2;
+	padding: .5em 0;
+}
+
+.hr-fat-top,
+hr {
+	display: block;
+	border: 0;
+    padding: 0;
+}
+
+.hr-fat-top {
+    height: 5px;
+    border-top: 5px solid #364775;
+    margin: 3em 0 0;
+}
+
+hr {
+    height: 2px;
+    border-top: 2px solid #364775;
+	  margin-top: 0;
+}
+
+.hr2 {
+    height: 2px;
+    border-top: 2px solid #364775;
+	  margin-top: 10%;
+}
+
+
+legend {
+  font-size: 1.4em;
+  margin-bottom: 10px;
+}
+
+label {
+  display: inline;
+  margin-bottom: 8px;
+}
+
+
+div {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.checkbox {
+    display: inline-block;
+    cursor: pointer;
+}
+
+
+  input, select, textarea {
+      width: 100%;
+      border-radius: 5px;
+      background-color: #eeeff1;
+      border: 3px solid #eeeff1;
+      padding: 20px;
+      transition: all .5s ease-in-out;
+      margin-bottom: 10%;
+  }
+
+input, textarea, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: right;
+    margin: 0em;
+    font: 400 11px system-ui;
+}
+
+.dropdown {
+    color: #767578;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.1em;
+    padding: 20px;
+}
+
+button {
+	background: #364775;
+	border: #4dbbb5;
+	width: 100%;
+	border-radius: 5px;
+	padding: 10px;
+  margin-top: 25%;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 0;
+}
+
+
+
+@media screen and (min-width: 380px) { /*larger phones & small tablets*/
+
+	.wrapper {
+		border-radius: 10px;
+		margin: 5% 15px;
+	}
+
+}
+
+@media (min-width: 790px) { /*regular tablets & smaller desktops*/
+
+	.wrapper {
+		max-width: 720px;
+		padding-top: 40px;
+		margin: 5% auto;
+    border-radius: 2%;
+	}
+
+  input, select, textarea {
+      width: 100%;
+      border-radius: 5px;
+      background-color: #eeeff1;
+      border: 3px solid #eeeff1;
+      padding: 20px;
+      transition: all .5s ease-in-out;
+      margin-bottom: 10%;
+  }
+
+  legend {
+      font-size: 1.3em;
+      line-height: 2;
+      margin-bottom: 25px;
+  }
+
+  label {
+    font-size: 1.1em;
+    line-height: 3;
+}
+
+
+	.checkbox {
+		line-height: 2.5;
+	}
+
+	.row {
+		clear: both;
+		margin-bottom: 70px;
+	}
+
+	.row label {
+		width: 25%;
+		float: left;
+	}
+
+	.row input,
+	.row select {
+		width: 75%;
+		float: right;
+	}
+
+  .row:last-child {
+  		margin-top: 0;
+  		padding: 15px 0 50px;
+  	}
+
+    .row2 label {
+      width: 25%;
+      float: left;
+    }
+
+    .row2 input {
+      width: 75%;
+      float: right;
+    }
+
+    .row {
+  		clear: both;
+  	  margin-bottom: 70px;
+  	}
+
+  .dropdown {
+		font-size: 1em;
+	}
+
+.newsletter {
+  margin: 0 auto;
+}
+
+  button {
+      transition: all .3s ease-in-out;
+      margin-top: 25%;
+  }
+
+
+  .news-col2 input,
+  .news-col2 span {
+    margin: -1%;
+    display: block;
+	}
+
+  .news-col3 input,
+  .news-col3 span {
+    margin: -1%;
+    display: block;
+}
+
+  @media screen and (min-width: 1024px) { /*larger desktops*/
+
+	.wrapper {
+		max-width: 900px;
+		padding: 40px;
+	}
+
+	h1 {
+		font-size: 2.5em;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	p {
+		font-size: 1.3em;
+	}
+
+  button {
+    display: block;
+    width: 340px;
+    margin: 0 auto 2em;
+}
+
+  label[for="ref_source"] {
+		margin-top: 19px;
+	}
+
+	select[id="ref_source"] {
+		width: 80%;
+	}
+
+
+}
