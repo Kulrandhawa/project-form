@@ -19,6 +19,7 @@
  <h2>Sign up for our newsletter</h2>
  <p>Get the latest news on how your code is doing right in your inbox</p>
 </div>
+<img class="avatar rounded" src="../img/sub.jpeg" alt="Subscription">
  <form method="post" action="index.html">
 
    <hr class="hr-fat-top">
@@ -86,51 +87,55 @@
 
         <label class="instructions">Select the newsletter you would like to receive:</label>
         <br>
-        <div class="row2">
+
+        <div class="news-col3">
         <input type="checkbox" id="html_newsletter" value="newsletter_html" name="user_newsletters">
         <label for="html_newsletter" class="checkbox">HTML News
          </label>
         <br>
-      </div>
 
-       <div class="row2">
+
+
         <input type="checkbox" id="css_newsletter" value="newsletter_css" name="user_newsletters">
         <label for="css_newsletter" class="checkbox">CSS News</label>
         <br>
-      </div>
 
-       <div class="row2">
+
+
         <input type="checkbox" id="javascript_newsletter" value="newsletter_javascript_" name="user_newsletters">
         <label for="javascript__newsletter" class="checkbox">JavaScript News</label>
         <br>
-        </div>
+      </div>
 
-        <label class="instructions1">Newsletter format:</label>
+        <label class="instructions">Newsletter format:</label>
         <br>
 
-        <div class="row2">
+       <div class="news-col3">
         <label for="html_format">
         <input type="radio" id="html_format" name="user_news_format">
         <span>HTML</span></label>
         <br>
-      </div>
 
-       <div class="row2">
+
+
         <label for="text_format">
         <input type="radio" id="text_format" name="user_news_format">
         <span>Plain text</span></label>
         <br>
-       	</div>
+      </div>
 
-       	<div class="news-col3">
+      <div class="news-col3">
         <label class="instructions">Frequency of newsletter(s):</label>
         <br>
+
+
 
         <label for="1x_month">
         <input type="radio" id="1x_month" name="user_newsletter_freq">
         <span>Monthly</span>
         </label>
         <br>
+
 
         <label for="2x_month">
         <input type="radio" id="2x_month" name="user_newsletter_freq">
@@ -144,6 +149,7 @@
         <span>Weekly</span>
         </label>
         <br>
+      </div>
 
         <label for="ref_source" class="instructions">How did you hear about our site?</label>
         <select id="ref_source" class="dropdown" name="user_ref_source">
@@ -154,13 +160,15 @@
     				<option value="social_media">Social Media</option>
     				<option value="none_above">None of the Above</option>
 				</select>
-       	</div>
+
 
         <div class="other-topics">
         <label for="other_topics" class="instructions">Other topics you'd like to hear about:</label>
         <textarea id="other_topics" name="user_req_topics" rows="5" cols="25" placeholder="Tell us about other topics here."></textarea>
         <br>
-        <button type="submit">Sign Up</button>
+        <button class="inln btn default" type="submit">Sign Up</button>
+        <button class="inln btn error" type="submit">Sign In</button><br>
+        <a href="#" target="_blank">Reset?</a>
       </div>
         </fieldset>
        </form>
